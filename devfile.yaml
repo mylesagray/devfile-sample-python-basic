@@ -24,7 +24,7 @@ parent:
 components:
   - name: image-build
     image:
-      imageName: python-image:latest
+      imageName: harbor.vmw.blah.cloud/dockerhub-proxy/python-image:latest
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
